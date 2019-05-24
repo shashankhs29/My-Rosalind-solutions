@@ -13,6 +13,6 @@ def countnt(seq):
             continue
     print(f"{a} {c} {g} {t}")
 
-print("Enter DNA strand:\n")
-strand = input()
+fi = open("rosalind_dna.txt", "r")
+strand = fi.read()
 countnt(strand)
