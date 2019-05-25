@@ -16,3 +16,4 @@ def countnt(seq):
 fi = open("rosalind_dna.txt", "r")
 strand = fi.read()
 countnt(strand)
+fi.close()
